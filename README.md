@@ -1,1 +1,4 @@
-# Aulas Alexandre
+# Aulas Alexandre :computer:
+
+Conteúdo das aulas sobre PostgresSQL 
+
