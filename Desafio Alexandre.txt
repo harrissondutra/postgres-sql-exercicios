@@ -1,0 +1,46 @@
+
+
+---------------------------------
+
+Cria uma tabela tb_cliente (cd_cliente, nome_nascimento, nome mae)
+   Pk cd_cliente
+Criar uma tabela de produto (cd_produto, nome_produto)	
+   pk cd_produto
+Criar tabela de venda (cd_venda,cd_cliente data)
+   pk cd_venda
+   fk cd_cliente
+Criar tabela itens da venda (cd_item_venda, cd_venda, cd_produto, quantidade, valor)    
+   PK cd_item_venda
+   FK cd_produto
+   FK cd_venda
+
+---------------------------------
+---consultas	
+	
+fazer uma consulta para trazer a quantidade de vendas por cliente
+
+fazer uma consulta para trazer a venda por mês
+
+fazer uma view para trazer a quantidade e valor de venda por mês cliente
+
+fazer uma lista dos produtos mais vendidos
+
+-------------------------------
+auditoria
+
+Criar uma tabela para guarda a auditoria das venda auditoria_venda (cd_auditoria, cd_venda,cd_liente, data, data_alteração, tipo_registro)
+  Fazer uma trigger para alimentar esta tabela quando fizer uma inserção ou atualização na tabela venda
+  tipo_registro - campo para guardar o valor I e for um inclusão e U ser for uma atualização
+  
+---------------------------------  
+  
+ 
+  
+
+  
+
+
+
+
+
+	
